@@ -4,11 +4,21 @@
   "description": "Config generator for gulp-responsive",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint index.js"
   },
-  "author": "",
+  "author": {
+    "name": "Eugeny Vlasenko",
+    "email": "mahnunchik@gmail.com",
+    "url": "https://github.com/mahnunchik"
+  },
   "license": "MIT",
+  "repository": "mahnunchik/gulp-responsive-config",
   "dependencies": {
-    "globby": "^1.1.0"
+    "globby": "^1.1.0",
+    "parse-image-dimensions": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.11"
   }
 }
