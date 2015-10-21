@@ -25,7 +25,6 @@ module.exports = function responsiveConfig(patterns, opts) {
   });
 
   var config = imagePaths.map(function(imagePath) {
-    var dirname = path.dirname(imagePath);
     var extname = path.extname(imagePath);
     var basename = path.basename(imagePath, extname);
 
@@ -50,10 +49,10 @@ module.exports = function responsiveConfig(patterns, opts) {
     }
 
     return {
-      name: path.relative('/', path.join(dirname, imageDimensions.name + extname)),
+      name: imageDimensions.name + extname,
       width: width,
       height: height,
-      rename: path.relative('/', path.join(dirname, basename + extname))
+      rename: basename + extname
     };
   });
 
