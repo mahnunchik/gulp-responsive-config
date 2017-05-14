@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": "mahnunchik/gulp-responsive-config",
   "dependencies": {
-    "globby": "^4.0.0",
+    "globby": "^6.1.0",
     "parse-image-dimensions": "^1.0.0"
   },
   "devDependencies": {
