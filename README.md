@@ -1,5 +1,7 @@
 # gulp-responsive-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/gulp-responsive-config.svg)](https://greenkeeper.io/)
+
 > `gulp-responsive-config` helps to generate `gulp-responsive` configuration from existiong HTML and CSS files.
 
 * [gulp-responsive](https://www.npmjs.com/package/gulp-responsive)
